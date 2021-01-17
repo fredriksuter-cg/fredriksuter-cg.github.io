@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: "Playfair Display", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/galaxy.jpg");
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #8AC5F5;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+p, [for="abtype"], [for="comments"] {
+	margin: 2rem 0 1rem 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+fieldset {
+	border: 1px solid black;
+	border-radius: 8px;
+	margin-bottom: 2rem;
+}
+
+legend {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+label {
+	/*border: 1px solid red;*/
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea {
+	margin: 0 0 1rem 0;
+	display: block;
+	width: 20rem;
+	padding: 0.5rem 0.5rem;
+	border: 1px solid #464646;
+	border-radius: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+textarea{
+	height: 10rem;
+	padding: 1rem;
+	width: 80%;
+}
+
+select {
+	font-size: 1rem;
+	/*margin-bottom: 1rem;*/
+}
+
+button {
+	font-size: 1.5rem;
+	padding: 1rem;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	width: 40%;
+}
+
+button:hover {
+	background-color: darkblue;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+address {
+	margin-bottom: 2rem;
+}
+.maparea {
+	margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
